@@ -59,4 +59,22 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <SeekBar
+        android:id="@+id/seekBar2"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="107dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="8dp"
+        android:max="2"
+        android:progress="0"
+        android:progressBackgroundTint="#FFFFFF"
+        android:progressBackgroundTintMode="add"
+        android:progressTint="#46DF8C"
+        android:thumbTint="#61A2A2AA"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tickMark="?android:attr/listChoiceIndicatorSingle"
+        app:tickMarkTint="#46DF8C" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
