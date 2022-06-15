@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_bold"
         android:text="M o n i t o r e"
-        android:textColor="#B0000000"
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
