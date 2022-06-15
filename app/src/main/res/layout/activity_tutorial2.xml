@@ -67,13 +67,11 @@
         android:layout_marginBottom="8dp"
         android:max="2"
         android:progress="1"
-        android:progressBackgroundTint="#FFFFFF"
-        android:progressBackgroundTintMode="add"
-        android:progressTint="#FFFFFF"
+        android:progressBackgroundTint="#00000000"
+        android:progressTint="#0046DF8C"
         android:thumbTint="#61A2A2AA"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:tickMark="?android:attr/listChoiceIndicatorSingle"
         app:tickMarkTint="#46DF8C" />
 </androidx.constraintlayout.widget.ConstraintLayout>
