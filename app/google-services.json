@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "577741103710",
+    "project_id": "monitore-eb7ae",
+    "storage_bucket": "monitore-eb7ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577741103710:android:e1984248c730a799c6cacf",
+        "android_client_info": {
+          "package_name": "com.cultive.monitore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577741103710-c2grdhj5saqsn6h669mie6jpsuakid07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbgGrnGfZypECYHe9FCwZwZwjeeUUsy0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577741103710-c2grdhj5saqsn6h669mie6jpsuakid07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
