@@ -20,15 +20,15 @@ public class MainActivity extends AppCompatActivity {
 
     GoogleSignInOptions gop;
     GoogleSignInClient goc;
-    ImageView googleBtn;
+    ///ImageView googleBtn;
+    Button googleBtn;
 
-    Button bt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        googleBtn = findViewById(R.id.google_btn);
+        googleBtn = findViewById(R.id.button);
 
         gop= new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         goc = GoogleSignIn.getClient(this, gop);
@@ -75,14 +75,5 @@ public class MainActivity extends AppCompatActivity {
                 Tutorial1Activity.class);
         startActivity(i);
     }
-        /*bt = (Button) findViewById(R.id.button);
 
-        bt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,
-                        Tutorial1Activity.class);
-                startActivity(i);
-            }
-        });*/
     }

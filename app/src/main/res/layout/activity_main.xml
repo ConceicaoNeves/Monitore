@@ -42,8 +42,8 @@
 
     <ImageView
         android:id="@+id/google_btn"
-        android:layout_width="111dp"
-        android:layout_height="89dp"
+        android:layout_width="91dp"
+        android:layout_height="73dp"
         android:layout_margin="20dp"
         android:layout_marginTop="32dp"
         android:src="@drawable/vaso"
@@ -51,23 +51,25 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:srcCompat="@drawable/googleicon" />
 
     <Button
         android:id="@+id/button"
-        style="@style/Widget.Material3.Button.OutlinedButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Widget.Material3.Button.TextButton.Icon"
+        android:layout_width="144dp"
+        android:layout_height="58dp"
         android:layout_marginBottom="108dp"
+        android:drawableLeft="@drawable/googleg_standard_color_18"
         android:fontFamily="@font/poppins_bold"
-        android:text="Iniciar"
+        android:text="Fazer Login com o Google"
         android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:strokeColor="#FFFFFF"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="2dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
