@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#45DF8C"
+    android:foreground="@drawable/fgmon"
     android:longClickable="true"
     tools:context=".MainActivity">
 
@@ -43,9 +44,10 @@
     <Button
         android:id="@+id/button"
         style="@style/Widget.Material3.Button.TextButton.Icon"
-        android:layout_width="144dp"
+        android:layout_width="246dp"
         android:layout_height="58dp"
-        android:layout_marginBottom="140dp"
+        android:layout_marginBottom="420dp"
+        android:backgroundTint="#635C5C"
         android:drawableLeft="@drawable/googleg_standard_color_18"
         android:fontFamily="@font/poppins_bold"
         android:text="Fazer Login com o Google"
@@ -53,10 +55,21 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent"
         app:strokeColor="#FFFFFF"
         app:strokeWidth="2dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView5"
+        android:layout_width="342dp"
+        android:layout_height="181dp"
+        android:layout_marginBottom="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/screen_background_light" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
