@@ -19,13 +19,13 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135"
+        app:layout_constraintVertical_bias="0.22"
         app:srcCompat="@drawable/logotipo" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="317dp"
-        android:layout_height="116dp"
+        android:layout_width="267dp"
+        android:layout_height="86dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="311dp"
@@ -33,43 +33,30 @@
         android:text="Bem-Vindo ao  Monitore!"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        app:autoSizeTextType="uniform"
+        android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.032" />
 
     <Button
         android:id="@+id/button"
         style="@style/Widget.Material3.Button.TextButton.Icon"
-        android:layout_width="246dp"
-        android:layout_height="58dp"
-        android:layout_marginBottom="420dp"
-        android:backgroundTint="#635C5C"
+        android:layout_width="192dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="164dp"
+        android:backgroundTint="#FFFFFF"
         android:drawableLeft="@drawable/googleg_standard_color_18"
         android:fontFamily="@font/poppins_bold"
-        android:text="Fazer Login com o Google"
-        android:textColor="#FFFFFF"
-        android:textSize="12sp"
+        android:text="Entrar com o Google"
+        android:textColor="#676363"
+        android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent"
         app:strokeColor="#FFFFFF"
         app:strokeWidth="2dp" />
-
-    <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:id="@+id/imageFilterView5"
-        android:layout_width="342dp"
-        android:layout_height="181dp"
-        android:layout_marginBottom="96dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/screen_background_light" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
