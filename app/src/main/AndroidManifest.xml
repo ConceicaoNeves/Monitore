@@ -16,7 +16,7 @@
         android:theme="@style/Theme.Monitore"
         tools:targetApi="31">
         <activity
-            android:name=".Temp"
+            android:name=".luminosidade"
             android:exported="false" />
         <activity
             android:name=".Principal1Activity"
