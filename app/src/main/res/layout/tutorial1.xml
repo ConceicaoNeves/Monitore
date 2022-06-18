@@ -22,36 +22,36 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="174dp"
-        android:layout_height="179dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="225dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/plante" />
+        app:srcCompat="@drawable/paginaum" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="278dp"
         android:layout_height="87dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginBottom="164dp"
         android:fontFamily="@font/poppins_bold"
         android:text="O Monitore é um sistema de monitoramento de cultivo de Coentro dentro de sua estufa."
         android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button2"
         style="@style/Widget.Material3.Button.Icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="158dp"
+        android:layout_height="38dp"
         android:layout_marginBottom="52dp"
         android:backgroundTint="#45DF8C"
         android:fontFamily="@font/poppins_bold"
-        android:text="   Próximo"
+        android:text="Entendi"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,15 +60,15 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <SeekBar
-        android:id="@+id/seekBar2"
+        android:id="@+id/seekBar4"
         style="@style/Widget.AppCompat.SeekBar.Discrete"
         android:layout_width="107dp"
         android:layout_height="38dp"
         android:layout_marginBottom="8dp"
         android:max="2"
-        android:progress="0"
+        android:progress="2"
         android:progressBackgroundTint="#00000000"
-        android:progressTint="#46DF8C"
+        android:progressTint="#0046DF8C"
         android:thumbTint="#61A2A2AA"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
