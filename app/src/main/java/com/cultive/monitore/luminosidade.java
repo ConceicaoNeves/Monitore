@@ -17,18 +17,23 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 public class luminosidade extends AppCompatActivity {
 
-    TextView txt;
+    TextView txt, txt2;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
-    
+    FirebaseFirestore db2 = FirebaseFirestore.getInstance();
+
     private DatabaseReference bancoDataref;
+    private DatabaseReference bancoDataref2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_temp);
 
-        bancoDataref = FirebaseDatabase.getInstance().getReference().child("teste");
+        bancoDataref = FirebaseDatabase.getInstance().getReference().child("Teste");
+        bancoDataref2 = FirebaseDatabase.getInstance().getReference().child("Teste2");
 
         txt = findViewById(R.id.test);
+        txt2 = findViewById(R.id.test2);
 
         bancoDataref.addValueEventListener(new ValueEventListener() {
             @Override
@@ -37,6 +42,21 @@ public class luminosidade extends AppCompatActivity {
                 if(snapshot.exists()) {
                     String data = snapshot.getValue().toString();
                     txt.setText(data);
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+        bancoDataref2.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                if(snapshot.exists()) {
+                    String data = snapshot.getValue().toString();
+                    txt2.setText(data);
                 }
             }
 
