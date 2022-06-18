@@ -1,4 +1,14 @@
-# Estufa-Monitoramento-IoT
-Aplicação de monitoramento do microclima de uma estufa 
+# Estufa Monitoramento IoT
+## ☕ Implementação em Java
+### Descrição: Aplicação de Monitoramento do microclima de uma estufa 
 Itens a serem monitorados:
-temperatura
+* Temperatura
+* Luminosidade
+* Umidade do Solo 
+## :memo: Equipe
+
+* **Alexsander Renê Ferreira** 
+* **Conceição Neves** 
+* **Maria Carolina Ambrósio** 
+* **Maryse Pires**
+* **Mikael Hayden**
