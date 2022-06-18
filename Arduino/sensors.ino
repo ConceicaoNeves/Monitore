@@ -40,7 +40,8 @@ void loop() {
   int voltagem = sensorValue; //(3.3 / 1024.0);/   // Converter a leitura anal贸gica (que vai de 0 - 1023) para uma voltagem (0 - 3.3V), quanto de acordo com a intensidade de luz no LDR a voltagem diminui.
   Serial.println(voltagem);   // Mostrar valor da voltagem no monitor serial
   Firebase.setInt(minhaBase, "Teste", voltagem); //Envia o dado da variavel voltagem para a variavel Teste no Firebase
-  delay(500); // Espera 5 segundos 
+  Firebase.pushInt(minhaBase, "Teste2", voltagem); //Envia o dado da variavel voltagem para a variavel Teste2 no Firebase
+  delay(5000); // Espera 5 segundos 
   
   /* 
 Firebase.get(minhaBase, "teste");
