@@ -35,7 +35,10 @@ public class MainActivity extends AppCompatActivity {
 
         GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
         if(account!=null){
-            navigateToSecondActivity();
+            finish();
+            Intent i = new Intent(MainActivity.this,
+                    HomeActivity.class);
+            startActivity(i);
         }
 
         googleBtn.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 signIn();
             }
         });
+
 
 
 
