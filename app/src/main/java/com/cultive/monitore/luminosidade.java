@@ -42,7 +42,6 @@ public class luminosidade extends AppCompatActivity {
                 if(snapshot.exists()) {
                     String data = snapshot.getValue().toString();
                     txt.setText(data);
-
                 }
             }
 
@@ -53,19 +52,12 @@ public class luminosidade extends AppCompatActivity {
         });
         bancoDataref2.addValueEventListener(new ValueEventListener() {
             @Override
-
-
             public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                 if(snapshot.exists()) {
                     String data = snapshot.getValue().toString();
                     txt2.setText(data);
-
-
-
                 }
-
-
             }
 
             @Override
