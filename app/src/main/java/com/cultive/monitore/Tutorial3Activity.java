@@ -20,7 +20,7 @@ public class Tutorial3Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Tutorial3Activity.this,
-                        HomeActivity.class);
+                        LoginActivity.class);
                 startActivity(i);
             }
         });

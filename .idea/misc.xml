@@ -14,12 +14,14 @@
         <entry key="app/src/main/res/layout/activity_temp.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_tutorial2.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_tutorial3.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activityin_main.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/app_bar_home.xml" value="0.13360507246376813" />
         <entry key="app/src/main/res/layout/content_home.xml" value="0.13360507246376813" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.13360507246376813" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.13360507246376813" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.13360507246376813" />
         <entry key="app/src/main/res/layout/nav_header_home.xml" value="0.13360507246376813" />
+        <entry key="app/src/main/res/layout/switch_item.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/tutorial1.xml" value="0.33" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
         <entry key="app/src/main/res/menu/home.xml" value="0.19375" />
