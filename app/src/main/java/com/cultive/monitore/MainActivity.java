@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         if(account!=null){
             finish();
             Intent i = new Intent(MainActivity.this,
-                    HomeActivity.class);
+                    FirstActivity.class);
             startActivity(i);
         }
 
