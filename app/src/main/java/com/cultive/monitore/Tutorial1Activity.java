@@ -20,7 +20,7 @@ public class Tutorial1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tutorial1);
+        setContentView(R.layout.activity_tutorial1);
 
         gop = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         goc = GoogleSignIn.getClient(this,gop);

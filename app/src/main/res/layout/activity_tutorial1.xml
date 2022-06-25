@@ -45,13 +45,13 @@
 
     <Button
         android:id="@+id/button2"
-        style="@style/Widget.Material3.Button.Icon"
         android:layout_width="158dp"
         android:layout_height="38dp"
         android:layout_marginBottom="52dp"
-        android:backgroundTint="#45DF8C"
+        android:backgroundTint="#46df8c"
         android:fontFamily="@font/poppins_bold"
         android:text="Entendi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
