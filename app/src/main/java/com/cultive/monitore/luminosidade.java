@@ -50,6 +50,17 @@ public class luminosidade extends AppCompatActivity {
                 if (snapshot.exists()) {
                     String data = snapshot.getValue().toString();
                     txt.setText(data);
+
+                    String sol = "Ensolarado";
+                    String nub = "Nublado";
+
+                    int lum = Integer.parseInt(data);
+                    if(lum <= 700){
+                        txt2.setText(sol);
+                    }
+                    else{
+                        txt2.setText(nub);
+                    }
                 }
             }
 
@@ -58,6 +69,7 @@ public class luminosidade extends AppCompatActivity {
 
             }
         });
+
         /*bancoDataref2.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -93,7 +105,7 @@ public class luminosidade extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError error) {
 
             }
-        });*/
+        });
 
         ChildEventListener childEventListener = new ChildEventListener() {
             @Override
@@ -121,6 +133,6 @@ public class luminosidade extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError error) {
 
             }
-        };
+        };*/
     }
 }
