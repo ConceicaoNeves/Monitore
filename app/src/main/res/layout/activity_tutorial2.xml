@@ -45,7 +45,6 @@
 
     <Button
         android:id="@+id/button3"
-        style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="158dp"
         android:layout_height="38dp"
         android:layout_marginBottom="52dp"
