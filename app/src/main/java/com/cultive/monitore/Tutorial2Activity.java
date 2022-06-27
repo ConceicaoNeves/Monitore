@@ -14,6 +14,8 @@ public class Tutorial2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tutorial2);
 
+        getSupportActionBar().hide();
+
         bt3 = (Button) findViewById(R.id.button3);
 
         bt3.setOnClickListener(new View.OnClickListener() {

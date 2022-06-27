@@ -22,6 +22,8 @@ public class Tutorial1Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tutorial1);
 
+        getSupportActionBar().hide();
+
         gop = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         goc = GoogleSignIn.getClient(this,gop);
 

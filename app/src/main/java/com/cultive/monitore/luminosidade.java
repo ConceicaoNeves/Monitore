@@ -36,6 +36,8 @@ public class luminosidade extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_temp);
 
+        getSupportActionBar().hide();
+
         bancoDataref = FirebaseDatabase.getInstance().getReference().child("Teste");
         bancoDataref2 = FirebaseDatabase.getInstance().getReference().child("Teste2");
 
