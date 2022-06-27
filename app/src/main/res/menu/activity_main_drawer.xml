@@ -21,11 +21,11 @@
             android:icon="@drawable/pa"
             android:title="@string/menu_instrucoes" />
         <item
-            android:id="@+id/ReiniciarFragment"
+            android:id="@+id/reinicarFragment"
             android:icon="@drawable/reinicio"
             android:title="@string/menu_reiniciar" />
         <item
-            android:id="@+id/LogoutActivity"
+            android:id="@+id/logoutActivity"
             android:icon="@drawable/logout"
             android:title="@string/menu_logout" />
     </group>
