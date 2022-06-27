@@ -22,4 +22,19 @@
         android:name="com.cultive.monitore.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/instrucoesFragment"
+        android:name="com.cultive.monitore.InstrucoesFragment"
+        android:label="Instruções de Cultivo"
+        tools:layout="@layout/fragment_instrucoes" />
+    <fragment
+        android:id="@+id/reinicarFragment"
+        android:name="com.cultive.monitore.ReinicarFragment"
+        android:label="Reiniciar Plantio"
+        tools:layout="@layout/fragment_reinicar" />
+    <activity
+        android:id="@+id/logoutActivity"
+        android:name="com.cultive.monitore.LogoutActivity"
+        android:label="activity_logout"
+        tools:layout="@layout/activity_logout" />
 </navigation>

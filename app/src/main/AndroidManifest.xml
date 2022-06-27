@@ -16,6 +16,9 @@
         android:theme="@style/Theme.Monitore"
         tools:targetApi="31">
         <activity
+            android:name=".LogoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".FirstActivity"
             android:exported="false" />
         <activity
